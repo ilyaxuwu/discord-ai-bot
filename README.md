@@ -1,4 +1,4 @@
-# 🌌 Astral AI Discord Bot
+# 🌌 AI Discord Bot
 > A powerful, private, and customizable Discord AI Bot with Ollama support.
 
 Build your own AI companion without wasting time on complex coding. This bot uses **Ollama** to process everything locally, ensuring your data stays private and secure.
