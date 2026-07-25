@@ -19,11 +19,11 @@ An Ollama-powered, fully customizable Discord AI bot. Everything runs locally, k
 ## 🚀 Installation
 
 ```bash
-# 1. Install Ollama and download the model
+# 1. Install Ollama and download the model (other models you'd want to install)
 ollama pull 4skl/gemma4-e4b-mtp:latest
 
 # 2. Clone the repository
-git clone <repo-url>
+git clone https://github.com/ilyaxuwu/discord-ai-bot
 cd discord-ai-bot
 
 # 3. Install dependencies
@@ -49,12 +49,12 @@ All settings are managed through `config.json`:
 {
   "token": "DISCORD_BOT_TOKEN",
 
-  "brain_model": "4skl/gemma4-e4b-mtp:latest",
-  "eye_model": "4skl/gemma4-e4b-mtp:latest",
-  "observer_model": "qwen2.5:0.5b",
+  "brain_model": "4skl/gemma4-e4b-mtp:latest", (Or Any model you'd want to change)
+  "eye_model": "4skl/gemma4-e4b-mtp:latest", (Or Any model you'd want to change)
+  "observer_model": "qwen2.5:0.5b", (Or Any model you'd want to change)
   "theme_color": 0xFF69B4,
-  "memory_limit": 10,
-  "sensei_id": "YOUR_DISCORD_ID",
+  "memory_limit": 10, (Change this if you want your bot to remind anything!)
+  "sensei_id": "YOUR_DISCORD_ID", 
   "default_student": "hoshino",
   "observer_mode": true,
   "observer_ai": false,
